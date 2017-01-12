@@ -5,8 +5,6 @@
     // numerically indexed array of places
     $places = [];
 
-    // TODO: search database for places matching $_GET["geo"], store in $places
-
     //query depending on type of information
     $places = CS50::query("SELECT * FROM places WHERE MATCH(postal_code, place_name, admin_name1) AGAINST (?)", $_GET["geo"]);
 
