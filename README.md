@@ -6,7 +6,9 @@ It was built while progressing through Harvard's online course CS50 It was built
 
 The majority of the code and features I contributed to this project can be seen in the following files:
 
-search.php
-script.js
-index.html
-import.php
+search.php <br />
+script.js <br />
+index.html <br />
+import.php <br />
+
+The rest of the code was provided by the CS50 curriculum
